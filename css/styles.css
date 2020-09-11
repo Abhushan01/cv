@@ -1,0 +1,42 @@
+body{
+    background-color:#EAF6F6;
+}
+/*hr{
+    border-color: grey;
+    border-width: 3px;
+    width: 5%;
+    border-style:none;
+    border-top-style: dotted;
+}*/
+h1{
+    color: #66bfbf;
+}
+
+h1:hover{
+    color:rgb(45, 105, 105);
+}
+h3{
+    color:#66bfbf;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: grey;
+    overflow: visible;
+    text-align: center;
+    width: 10%;
+    height: 5px;
+}
+
+hr:after {
+    background: #EAF6F6;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
